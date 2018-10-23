@@ -1,5 +1,5 @@
 {
-    "name": "mingyoung/dingtalk",
+    "name": "talbpit/dingtalk",
     "description": "钉钉 SDK",
     "keywords": [
         "dingtalk", "dingding", "dingtalk-sdk"
@@ -35,5 +35,8 @@
         "psr-4": {
             "EasyDingTalk\\Tests\\": "tests/"
         }
+    },
+    "conflict": {
+        "mingyoung/dingtalk": "*"
     }
 }
